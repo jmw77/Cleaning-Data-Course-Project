@@ -34,71 +34,71 @@ In summary the tidy data set includes average values for the following variables
   - mean and standard deviation of magnitude for all time domain signals (N = 8)
   
 List of all variables and units:
-1. "Activity" - Description of the activity the subject performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
-2. "Subject" - The subject identification number (from 1 to 30).
-3. "MeanBodyLinearAccelerationTimeDomainX" - The mean body linear acceleration in time on the X-axis, average in units of 'g'.
-4. "MeanBodyLinearAccelerationTimeDomainY" - The mean body linear acceleration in time on the Y-axis, average in units of 'g'.
-5. "MeanBodyLinearAccelerationTimeDomainZ" - The mean body linear acceleration in time on the Z-axis, average in units of 'g'.
-6. "StandardDeviationBodyLinearAccelerationTimeDomainX" - The standard deviation of body linear acceleration in time on the X-axis, average in units of 'g'.
-7. "StandardDeviationBodyLinearAccelerationTimeDomainY" - The standard deviation of body linear acceleration in time on the Y-axis, average in units of 'g'.
-8. "StandardDeviationBodyLinearAccelerationTimeDomainZ" - The standard deviation of body linear acceleration in time on the Z-axis, average in units of 'g'.
-9. "MeanGravityAccelerationTimeDomainX" - The mean gravity acceleration in time on the X-axis, average in units of 'g'.
-10. "MeanGravityAccelerationTimeDomainY" - The mean gravity acceleration in time on the Y-axis, average in units of 'g'.
-11. "MeanGravityAccelerationTimeDomainZ" - The mean gravity acceleration in time on the Z-axis, average in units of 'g'.
-12. "StandardDeviationGravityAccelerationTimeDomainX" - The standard deviation of gravity acceleration in time on the X-axis, average in units of 'g'.
-13. "StandardDeviationGravityAccelerationTimeDomainY" - The standard deviation of gravity acceleration in time on the Y-axis, average in units of 'g'.
-14. "StandardDeviationGravityAccelerationTimeDomainZ" - The standard deviation of gravity acceleration in time on the Z-axis, average in units of 'g'.
-15. "MeanBodyLinearAccelerationJerkSignalTimeDomainX" - The mean body linear acceleration jerk signal in time on the X-axis, average in units of 'g'.
-16. "MeanBodyLinearAccelerationJerkSignalTimeDomainY" - The mean body linear acceleration jerk signal in time on the Y-axis, average in units of 'g'.
-17. "MeanBodyLinearAccelerationJerkSignalTimeDomainZ" - The mean body linear acceleration jerk signal in time on the Z-axis, average in units of 'g'.
-18. "StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainX" - The standard deviation of body linear acceleration jerk signal in time on the X-axis, average in units of 'g'.
-19."StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainY" - The standard deviation of body linear acceleration jerk signal in time on the Y-axis, average in units of 'g'.
-20. "StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainZ" - The standard deviation of body linear acceleration jerk signal in time on the Z-axis, average in units of 'g'.
-21. "MeanBodyAngularVelocityTimeDomainX" - The mean body angular velocity in time on the X-axis, average in units of radians per second.
-22. "MeanBodyAngularVelocityTimeDomainY" - The mean body angular velocity in time on the Y-axis, average in units of radians per second.
-23. "MeanBodyAngularVelocityTimeDomainZ" - The mean body angular velocity in time on the Z-axis, average in units of radians per second.
-24. "StandardDeviationBodyAngularVelocityTimeDomainX" - The standard deviation of body angular velocity in time on the X-axis, average in units of radians per second.
-25. "StandardDeviationBodyAngularVelocityTimeDomainY" - The standard deviation of body angular velocity in time on the Y-axis, average in units of radians per second.
-26. "StandardDeviationBodyAngularVelocityTimeDomainZ" - The standard deviation of body angular velocity in time on the Z-axis, average in units of radians per second.
-27. "MeanBodyAngularVelocityJerkSignalTimeDomainX" - The mean body angular velocity jerk signal in time on the X-axis, average in units of radians per second.
-28. "MeanBodyAngularVelocityJerkSignalTimeDomainY" - The mean body angular velocity jerk signal in time on the Y-axis, average in units of radians per second.
-29. "MeanBodyAngularVelocityJerkSignalTimeDomainZ" - The mean body angular velocity jerk signal in time on the Z-axis, average in units of radians per second.
-30. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainX" - The standard deviation of body angular velocity jerk signal in time on the X-axis, average in units of radians per second.
-31. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainY" - The standard deviation of body angular velocity jerk signal in time on the Y-axis, average in units of radians per second.
-32. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainZ" - The standard deviation of body angular velocity jerk signal in time on the Z-axis, average in units of radians per second.
-33. "MeanMagnitudeBodyLinearAccelerationTimeDomain" - The mean magnitude of body linear acceleration in time, average in units of 'g'.
-34. "StandardDeviationMagnitudeBodyLinearAccelerationTimeDomain" - The standard deviation of magnitude of body linear acceleration in time, average in units of 'g'.
-35. "MeanMagnitudeGravityAccelerationTimeDomain" - The mean magnitude of gravity acceleration in time, average in units of 'g'.
-36. "StandardDeviationMagnitudeGravityAccelerationTimeDomain" - The standard deviation of magnitude of gravity acceleration in time, average in units of 'g'.
-37. "MeanMagnitudeBodyLinearAccelerationJerkSignalTimeDomain" - The mean magnitude of body linear acceleration jerk signal in time, average in units of 'g'.
-38. "StandardDeviationMagnitudeBodyLinearAccelerationJerkSignalTimeDomain" - The standard deviation of magnitude of body linear acceleration jerk signal in time, average in units of 'g'.
-39. "MeanMagnitudeBodyAngularVelocityTimeDomain" - The mean magnitude of body angular velocity in time, average in units of radians per second.
-40. "StandardDeviationMagnitudeBodyAngularVelocityTimeDomain" - The standard deviation of magnitude of body angular velocity in time, average in units of radians per second.
-41. "MeanMagnitudeBodyAngularVelocityJerkSignalTimeDomain" - The mean magnitude of body angular velocity jerk signal in time, average in units of radians per second.
-42. "StandardDeviationMagnitudeBodyAngularVelocityJerkSignalTimeDomain" - The standard deviation of magnitude of body angular velocity jerk signal in time, average in units of radians per second.
-43. "MeanBodyLinearAccelerationFrequencyDomainX" - The mean body linear acceleration in frequency on the X-axis, average in units of 'g'.
-44. "MeanBodyLinearAccelerationFrequencyDomainY" - The mean body linear acceleration in frequency on the Y-axis, average in units of 'g'.
-45. "MeanBodyLinearAccelerationFrequencyDomainZ" - The mean body linear acceleration in frequency on the Z-axis, average in units of 'g'.
-46. "StandardDeviationBodyLinearAccelerationFrequencyDomainX" - The standard deviation of body linear acceleration in frequency on the X-axis, average in units of 'g'.
-47. "StandardDeviationBodyLinearAccelerationFrequencyDomainY" - The standard deviation of body linear acceleration in frequency on the Y-axis, average in units of 'g'.
-48. "StandardDeviationBodyLinearAccelerationFrequencyDomainZ" - The standard deviation of body linear acceleration in frequency on the Z-axis, average in units of 'g'.
-49. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainX" - The mean of body linear acceleration jerk signal in frequency on the X-axis, average in units of 'g'.
-50. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainY" - The mean of body linear acceleration jerk signal in frequency on the Y-axis, average in units of 'g'.
-51. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainZ" - The mean of body linear acceleration jerk signal in frequency on the Z-axis, average in units of 'g'.
-52. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainX" - The standard deviation of body linear acceleration jerk signal in frequency on the X-axis, average in units of 'g'.
-53. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainY" - The standard deviation of body linear acceleration jerk signal in frequency on the Y-axis, average in units of 'g'.
-54. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainZ" - The standard deviation of body linear acceleration jerk signal in frequency on the Z-axis, average in units of 'g'.
-55. "MeanBodyAngularVelocityFrequencyDomainX" - The mean body angular velocity in frequency on the X-axis, average in units of radians per second.
-56. "MeanBodyAngularVelocityFrequencyDomainY" - The mean body angular velocity in frequency on the Y-axis, average in units of radians per second.
-57. "MeanBodyAngularVelocityFrequencyDomainZ" - The mean body angular velocity in frequency on the Z-axis, average in units of radians per second.
+1. "Activity" - Description of the activity the subject performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). <br />
+2. "Subject" - The subject identification number (from 1 to 30).<br />
+3. "MeanBodyLinearAccelerationTimeDomainX" - The mean body linear acceleration in time on the X-axis, average in units of 'g'.<br />
+4. "MeanBodyLinearAccelerationTimeDomainY" - The mean body linear acceleration in time on the Y-axis, average in units of 'g'.<br />
+5. "MeanBodyLinearAccelerationTimeDomainZ" - The mean body linear acceleration in time on the Z-axis, average in units of 'g'.<br />
+6. "StandardDeviationBodyLinearAccelerationTimeDomainX" - The standard deviation of body linear acceleration in time on the X-axis, average in units of 'g'.<br />
+7. "StandardDeviationBodyLinearAccelerationTimeDomainY" - The standard deviation of body linear acceleration in time on the Y-axis, average in units of 'g'.<br />
+8. "StandardDeviationBodyLinearAccelerationTimeDomainZ" - The standard deviation of body linear acceleration in time on the Z-axis, average in units of 'g'.<br />
+9. "MeanGravityAccelerationTimeDomainX" - The mean gravity acceleration in time on the X-axis, average in units of 'g'.<br />
+10. "MeanGravityAccelerationTimeDomainY" - The mean gravity acceleration in time on the Y-axis, average in units of 'g'.<br />
+11. "MeanGravityAccelerationTimeDomainZ" - The mean gravity acceleration in time on the Z-axis, average in units of 'g'.<br />
+12. "StandardDeviationGravityAccelerationTimeDomainX" - The standard deviation of gravity acceleration in time on the X-axis, average in units of 'g'.<br />
+13. "StandardDeviationGravityAccelerationTimeDomainY" - The standard deviation of gravity acceleration in time on the Y-axis, average in units of 'g'.<br />
+14. "StandardDeviationGravityAccelerationTimeDomainZ" - The standard deviation of gravity acceleration in time on the Z-axis, average in units of 'g'.<br />
+15. "MeanBodyLinearAccelerationJerkSignalTimeDomainX" - The mean body linear acceleration jerk signal in time on the X-axis, average in units of 'g'.<br />
+16. "MeanBodyLinearAccelerationJerkSignalTimeDomainY" - The mean body linear acceleration jerk signal in time on the Y-axis, average in units of 'g'.<br />
+17. "MeanBodyLinearAccelerationJerkSignalTimeDomainZ" - The mean body linear acceleration jerk signal in time on the Z-axis, average in units of 'g'.<br />
+18. "StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainX" - The standard deviation of body linear acceleration jerk signal in time on the X-axis, average in units of 'g'.<br />
+19."StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainY" - The standard deviation of body linear acceleration jerk signal in time on the Y-axis, average in units of 'g'.<br />
+20. "StandardDeviationBodyLinearAccelerationJerkSignalTimeDomainZ" - The standard deviation of body linear acceleration jerk signal in time on the Z-axis, average in units of 'g'.<br />
+21. "MeanBodyAngularVelocityTimeDomainX" - The mean body angular velocity in time on the X-axis, average in units of radians per second.<br />
+22. "MeanBodyAngularVelocityTimeDomainY" - The mean body angular velocity in time on the Y-axis, average in units of radians per second.<br />
+23. "MeanBodyAngularVelocityTimeDomainZ" - The mean body angular velocity in time on the Z-axis, average in units of radians per second.<br />
+24. "StandardDeviationBodyAngularVelocityTimeDomainX" - The standard deviation of body angular velocity in time on the X-axis, average in units of radians per second.<br />
+25. "StandardDeviationBodyAngularVelocityTimeDomainY" - The standard deviation of body angular velocity in time on the Y-axis, average in units of radians per second.<br />
+26. "StandardDeviationBodyAngularVelocityTimeDomainZ" - The standard deviation of body angular velocity in time on the Z-axis, average in units of radians per second.<br />
+27. "MeanBodyAngularVelocityJerkSignalTimeDomainX" - The mean body angular velocity jerk signal in time on the X-axis, average in units of radians per second.<br />
+28. "MeanBodyAngularVelocityJerkSignalTimeDomainY" - The mean body angular velocity jerk signal in time on the Y-axis, average in units of radians per second.<br />
+29. "MeanBodyAngularVelocityJerkSignalTimeDomainZ" - The mean body angular velocity jerk signal in time on the Z-axis, average in units of radians per second.<br />
+30. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainX" - The standard deviation of body angular velocity jerk signal in time on the X-axis, average in units of radians per second.<br />
+31. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainY" - The standard deviation of body angular velocity jerk signal in time on the Y-axis, average in units of radians per second.<br />
+32. "StandardDeviationBodyAngularVelocityJerkSignalTimeDomainZ" - The standard deviation of body angular velocity jerk signal in time on the Z-axis, average in units of radians per second.<br />
+33. "MeanMagnitudeBodyLinearAccelerationTimeDomain" - The mean magnitude of body linear acceleration in time, average in units of 'g'.<br />
+34. "StandardDeviationMagnitudeBodyLinearAccelerationTimeDomain" - The standard deviation of magnitude of body linear acceleration in time, average in units of 'g'.<br />
+35. "MeanMagnitudeGravityAccelerationTimeDomain" - The mean magnitude of gravity acceleration in time, average in units of 'g'.<br />
+36. "StandardDeviationMagnitudeGravityAccelerationTimeDomain" - The standard deviation of magnitude of gravity acceleration in time, average in units of 'g'.<br />
+37. "MeanMagnitudeBodyLinearAccelerationJerkSignalTimeDomain" - The mean magnitude of body linear acceleration jerk signal in time, average in units of 'g'.<br />
+38. "StandardDeviationMagnitudeBodyLinearAccelerationJerkSignalTimeDomain" - The standard deviation of magnitude of body linear acceleration jerk signal in time, average in units of 'g'.<br />
+39. "MeanMagnitudeBodyAngularVelocityTimeDomain" - The mean magnitude of body angular velocity in time, average in units of radians per second.<br />
+40. "StandardDeviationMagnitudeBodyAngularVelocityTimeDomain" - The standard deviation of magnitude of body angular velocity in time, average in units of radians per second.<br />
+41. "MeanMagnitudeBodyAngularVelocityJerkSignalTimeDomain" - The mean magnitude of body angular velocity jerk signal in time, average in units of radians per second.<br />
+42. "StandardDeviationMagnitudeBodyAngularVelocityJerkSignalTimeDomain" - The standard deviation of magnitude of body angular velocity jerk signal in time, average in units of radians per second.<br />
+43. "MeanBodyLinearAccelerationFrequencyDomainX" - The mean body linear acceleration in frequency on the X-axis, average in units of 'g'.<br />
+44. "MeanBodyLinearAccelerationFrequencyDomainY" - The mean body linear acceleration in frequency on the Y-axis, average in units of 'g'.<br />
+45. "MeanBodyLinearAccelerationFrequencyDomainZ" - The mean body linear acceleration in frequency on the Z-axis, average in units of 'g'.<br />
+46. "StandardDeviationBodyLinearAccelerationFrequencyDomainX" - The standard deviation of body linear acceleration in frequency on the X-axis, average in units of 'g'.<br />
+47. "StandardDeviationBodyLinearAccelerationFrequencyDomainY" - The standard deviation of body linear acceleration in frequency on the Y-axis, average in units of 'g'.<br />
+48. "StandardDeviationBodyLinearAccelerationFrequencyDomainZ" - The standard deviation of body linear acceleration in frequency on the Z-axis, average in units of 'g'.<br />
+49. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainX" - The mean of body linear acceleration jerk signal in frequency on the X-axis, average in units of 'g'.<br />
+50. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainY" - The mean of body linear acceleration jerk signal in frequency on the Y-axis, average in units of 'g'.<br />
+51. "MeanBodyLinearAccelerationJerkSignalFrequencyDomainZ" - The mean of body linear acceleration jerk signal in frequency on the Z-axis, average in units of 'g'.<br />
+52. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainX" - The standard deviation of body linear acceleration jerk signal in frequency on the X-axis, average in units of 'g'.<br />
+53. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainY" - The standard deviation of body linear acceleration jerk signal in frequency on the Y-axis, average in units of 'g'.<br />
+54. "StandardDeviationBodyLinearAccelerationJerkSignalFrequencyDomainZ" - The standard deviation of body linear acceleration jerk signal in frequency on the Z-axis, average in units of 'g'.<br />
+55. "MeanBodyAngularVelocityFrequencyDomainX" - The mean body angular velocity in frequency on the X-axis, average in units of radians per second.<br />
+56. "MeanBodyAngularVelocityFrequencyDomainY" - The mean body angular velocity in frequency on the Y-axis, average in units of radians per second.<br />
+57. "MeanBodyAngularVelocityFrequencyDomainZ" - The mean body angular velocity in frequency on the Z-axis, average in units of radians per second.<br />
 58. "StandardDeviationBodyAngularVelocityFrequencyDomainX" - The standard deviation of body angular velocity in frequency on the X-axis, average in units of radians per second.
-59. "StandardDeviationBodyAngularVelocityFrequencyDomainY" - The standard deviation of body angular velocity in frequency on the Y-axis, average in units of radians per second.
-60. "StandardDeviationBodyAngularVelocityFrequencyDomainZ" - The standard deviation of body angular velocity in frequency on the Z-axis, average in units of radians per second.
-61. "MeanMagnitudeBodyLinearAccelerationFrequencyDomain" - The mean magnitidue of body linear acceleration in frequency, average in units of 'g'.
-62. "StandardDeviationMagnitudeBodyLinearAccelerationFrequencyDomain" - The standard deviation of magnitidue of body linear acceleration in frequency, average in units of 'g'.
-63. "MeanMagnitudeBodyLinearAccelerationJerkSignalFrequencyDomain" - The mean magnitidue of body linear acceleration jerk signal in frequency, average in units of 'g'.
-64. "StandardDeviationMagnitudeBodyLinearAccelerationJerkSignalFrequencyDomain" - The standard deviation of magnitidue of body linear acceleration jerk signal in frequency, average in units of 'g'.
-65. "MeanMagnitudeBodyAngularVelocityFrequencyDomain" - The mean magnitidue of body angular velocity in frequency, average in units of radians per second.
-66. "StandardDeviationMagnitudeBodyAngularVelocityFrequencyDomain" - The standard deviation of magnitidue of body angular velocity in frequency, average in units of radians per second.
-67. "MeanMagnitudeBodyAngularVelocityJerkSignalFrequencyDomain" - The mean magnitude of body angular velocity jerk signal in frequency, average in units of radian per second.
-68. "StandardDeviationMagnitudeBodyAngularVelocityJerkSignalFrequencyDomain") - The standard deviation of magnitude of body angular velocity jerk signal in frequency, average in units of radians per second.
+59. "StandardDeviationBodyAngularVelocityFrequencyDomainY" - The standard deviation of body angular velocity in frequency on the Y-axis, average in units of radians per second.<br />
+60. "StandardDeviationBodyAngularVelocityFrequencyDomainZ" - The standard deviation of body angular velocity in frequency on the Z-axis, average in units of radians per second.<br />
+61. "MeanMagnitudeBodyLinearAccelerationFrequencyDomain" - The mean magnitidue of body linear acceleration in frequency, average in units of 'g'.<br />
+62. "StandardDeviationMagnitudeBodyLinearAccelerationFrequencyDomain" - The standard deviation of magnitidue of body linear acceleration in frequency, average in units of 'g'.<br />
+63. "MeanMagnitudeBodyLinearAccelerationJerkSignalFrequencyDomain" - The mean magnitidue of body linear acceleration jerk signal in frequency, average in units of 'g'.<br />
+64. "StandardDeviationMagnitudeBodyLinearAccelerationJerkSignalFrequencyDomain" - The standard deviation of magnitidue of body linear acceleration jerk signal in frequency, average in units of 'g'.<br />
+65. "MeanMagnitudeBodyAngularVelocityFrequencyDomain" - The mean magnitidue of body angular velocity in frequency, average in units of radians per second.<br />
+66. "StandardDeviationMagnitudeBodyAngularVelocityFrequencyDomain" - The standard deviation of magnitidue of body angular velocity in frequency, average in units of radians per second.<br />
+67. "MeanMagnitudeBodyAngularVelocityJerkSignalFrequencyDomain" - The mean magnitude of body angular velocity jerk signal in frequency, average in units of radian per second.<br />
+68. "StandardDeviationMagnitudeBodyAngularVelocityJerkSignalFrequencyDomain") - The standard deviation of magnitude of body angular velocity jerk signal in frequency, average in units of radians per second.<br />
