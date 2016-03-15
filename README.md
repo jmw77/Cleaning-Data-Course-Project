@@ -1,5 +1,5 @@
 This is a README.md file. Following the instructions for the Coursera 'Getting and Cleaning Data' course project, this file explains how the script works. 
-The Github repo contains the R-script 'run_analysis.R' used to perform the data cleaning.  It also contains a Codebook.md that includes: 1. information about the experimental study. 2. Information about the summary choices made in the data cleaning process. 3. Information about the Variables (including units).
+The Github repo contains the R-script 'run_analysis.R' used to perform the data cleaning.  It also contains a Codebook.md that includes: 1. Information about the experimental study. 2. Information about the summary choices made in the data cleaning process. 3. Information about the Variables (including units).
 
 There is one R-script file called 'run_analysis.R'.  This contains all the code required to clean the UCI Human Activity Recognition Using Smartphones Data Set.  To run the script type 'source("run_analysis.R")' at the R prompt.
 
