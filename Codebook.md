@@ -10,7 +10,7 @@ SUMMARY CHOICES
 The activity codes and subject ID numbers were appended as columns (using 'cbind') to the original train and test data, which were then merged (using 'rbind') to create one large data set. Only the measurements on the mean and standard deviation for each measurement were extracted, the data from the original set that was identified by the '-mean' and '-std' suffixes.  These data are the mean value and standard deviation of the measurements. The 'meanFreq' variable, a weighted average of the frequency components, was excluded. The additional variables of the orignal set identified with upper case 'Mean', obtained by averaging of signals, were also excluded. The activities in the data set were named using the descriptive activity names provided in the UCI HAR Dataset.  The data set was appropriately labeled with human readable descriptive variable names corresponding to the extracted data.  Finally a second independent tidy data set with the average of each variable for each activity and each subject was generated (using the 'melt' function from the 'reshape2' library).
 
 CODE BOOK 
-The data 'tidydata.txt' is a tidy data frame with 180 rows and 68 columns.  It includes a header with humand readable descriptive variable names.   
+The data frame created with 'run_analysis.R' is outputted to a text file 'tidydata.txt'.  The tidy data frame has 180 rows and 68 columns.  It includes a header with human readable descriptive variable names.   
 
 It includes two factors: 
 
